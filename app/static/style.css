@@ -1,0 +1,46 @@
+body {
+  background-color: #efefef;
+  margin: 0;
+  color: #d30f1c;
+}
+
+a {
+  transition: color 0.3s ease;
+  font-family: "Rubik", sans-serif;
+  color: #d30f1c;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #0fd3c6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 3px 0px 5px #aaa;
+  padding: 15px 30px;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: None;
+  font-size: 16px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 0 10px;
+}

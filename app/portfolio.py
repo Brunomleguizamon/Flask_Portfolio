@@ -3,7 +3,7 @@ from flask import(
     render_template
 )
 
-bp = Blueprint('porfolio', __name__, url_prefix='/')
+bp = Blueprint('portfolio', __name__, url_prefix='/')
 
 
 @bp.route('/', methods=['GET'])
