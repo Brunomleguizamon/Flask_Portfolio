@@ -1,20 +1,23 @@
+/* General Styles */
 body {
   background-color: #efefef;
   margin: 0;
-  color: #d30f1c;
+  color: #e5562c;
 }
 
 a {
   transition: color 0.3s ease;
   font-family: "Rubik", sans-serif;
-  color: #d30f1c;
+  color: #e5562c;
   text-decoration: none;
   font-weight: 700;
 }
 
 a:hover {
-  color: #0fd3c6;
+  color: #c9e8f1;
 }
+
+/* Navbar Styles */
 
 header {
   display: flex;
@@ -22,6 +25,8 @@ header {
   background-color: #fff;
   box-shadow: 3px 0px 5px #aaa;
   padding: 15px 30px;
+  position: relative;
+  z-index: 2;
 }
 
 header .logo {
@@ -43,4 +48,48 @@ nav ul li {
 
 nav ul li a {
   padding: 0 10px;
+}
+
+/* Hero Styles  */
+
+.hero {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  background-color: #fff;
+  padding: 20px 50px;
+  justify-content: center;
+}
+
+.hero-content {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero h1 {
+  font-family: "Rufina", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.hero p {
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #e5562c;
+  color: #fff;
+  border: None;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.left {
+  width: 600px;
+  align-self: center;
 }
