@@ -1,4 +1,8 @@
 /* General Styles */
+html {
+  font-family: "Rufina", sans-serif;
+}
+
 body {
   background-color: #efefef;
   margin: 0;
@@ -14,7 +18,38 @@ a {
 }
 
 a:hover {
-  color: #c9e8f1;
+  color: #676e92;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 1200px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  background-color: #676e92;
+  color: #fff;
+  border: None;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.left {
+  width: 600px;
+  align-self: center;
+}
+
+.secondary-color {
+  color: #676e92;
 }
 
 /* Navbar Styles */
@@ -81,15 +116,6 @@ nav ul li a {
   font-size: 20px;
 }
 
-.btn {
-  background-color: #e5562c;
+a.btn {
   color: #fff;
-  border: None;
-  padding: 15px 30px;
-  border-radius: 5px;
-}
-
-.left {
-  width: 600px;
-  align-self: center;
 }
