@@ -52,6 +52,14 @@ a:hover {
   color: #676e92;
 }
 
+.padded {
+  padding: 20px 30px;
+}
+
+.vert-pad {
+  padding: 20px 0px;
+}
+
 /* Navbar Styles */
 
 header {
