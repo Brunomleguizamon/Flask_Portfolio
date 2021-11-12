@@ -27,7 +27,8 @@ a:hover {
 }
 
 .content {
-  width: 1200px;
+  width: 100%;
+  padding-left: 25px;
 }
 
 .row {
@@ -43,9 +44,28 @@ a:hover {
   border-radius: 5px;
 }
 
+.btn-secondary {
+  background-color: #676e92;
+  color: #fff;
+  border: None;
+  font-size: 15px;
+  padding: 10px 12px;
+  border-radius: 3px;
+}
+
+a.btn,
+a.btn-secondary {
+  color: #fff;
+}
+
 .left {
-  width: 600px;
+  width: 50%;
+  padding: 20px;
   align-self: center;
+}
+
+.right {
+  width: 50%;
 }
 
 .secondary-color {
@@ -53,7 +73,7 @@ a:hover {
 }
 
 .padded {
-  padding: 20px 30px;
+  padding: 20px 15px;
 }
 
 .vert-pad {
@@ -67,9 +87,9 @@ header {
   justify-content: space-between;
   background-color: #fff;
   box-shadow: 3px 0px 5px #aaa;
-  padding: 15px 30px;
   position: relative;
   z-index: 2;
+  width: 100%;
 }
 
 header .logo {
@@ -78,6 +98,11 @@ header .logo {
   font-family: "Rubik", sans-serif;
   display: flex;
   align-items: center;
+  padding-left: 30px;
+}
+
+nav {
+  padding-right: 15px;
 }
 
 nav ul {
@@ -100,14 +125,16 @@ nav ul li a {
   z-index: 1;
   display: flex;
   background-color: #fff;
-  padding: 20px 50px;
+  padding: 20px 0px;
   justify-content: center;
+  width: 100%;
 }
 
 .hero-content {
-  width: 1200px;
+  width: 100%;
   display: flex;
   flex-direction: row;
+  padding-left: 30px;
 }
 
 .hero h1 {
@@ -124,6 +151,21 @@ nav ul li a {
   font-size: 20px;
 }
 
-a.btn {
-  color: #fff;
+.hero-img {
+  width: 100%;
+}
+
+/* Portfolio Card */
+
+.card {
+  background-color: #fff;
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #ddd;
+  padding: 20px 30px;
+}
+
+.third {
+  width: 25.3%;
+  margin: 10px;
 }

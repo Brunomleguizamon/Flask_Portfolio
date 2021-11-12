@@ -12,9 +12,10 @@
           <a href="#contact" class="btn">Contact Me</a>
     </div> 
     <div class="right">
-      <img src="{{ url_for('static', filename='big-data.png') }}" alt="big data image" width=600px   >
+      <img class="hero-img" src="{{ url_for('static', filename='big-data.png') }}" alt="big data image"  >
     </div> 
   </div>
 </div>
 {% include 'portfolio/section-first.html' %}
+{% include 'portfolio/section-projects.html' %}
 {% endblock %}
