@@ -1,0 +1,16 @@
+<div class="center">
+  <div class="content">
+    <div class="row padded">
+      <div class="left padded">
+      </div>
+      <div id="contact" class="right padded">
+        <form class="contact-form" method="post" action="{{ url_for('portfolio.mail') }}">
+          <input name="name" placeholder="Name" required />
+          <input name="email" placeholder="Email" type="email" required />
+          <textarea name="message" placeholder="Message" minlength="10 " required></textarea>
+          <button class="btn-secondary">Send</button>
+        </form>
+      </div>
+    </div>
+  </div> 
+</div>
