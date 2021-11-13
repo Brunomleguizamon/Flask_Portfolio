@@ -166,7 +166,7 @@ nav ul li a {
 }
 
 .third {
-  width: 25.3%;
+  width: 27.3%;
   margin: 10px;
 }
 
@@ -176,7 +176,7 @@ nav ul li a {
   font-family: "Rubik", sans-serif;
   border: none;
   height: 30px;
-  width: 80%;
+  width: 95%;
   padding: 5px 10px;
   margin-bottom: 15px;
   border-radius: 5px;
@@ -186,7 +186,7 @@ nav ul li a {
   font-family: "Rubik", sans-serif;
   border: none;
   height: 100px;
-  width: 80%;
+  width: 95%;
   padding: 15px 10px;
   resize: none;
   border-radius: 5px;
@@ -194,5 +194,5 @@ nav ul li a {
 }
 
 .contact-form button {
-  width: 30%;
+  width: calc(95% + 20px);
 }
