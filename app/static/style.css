@@ -80,6 +80,10 @@ a.btn-secondary {
   padding: 20px 0px;
 }
 
+.full-width {
+  width: 100%;
+}
+
 /* Navbar Styles */
 
 header {
@@ -195,4 +199,32 @@ nav ul li a {
 
 .contact-form button {
   width: calc(95% + 20px);
+}
+
+/* footer styles */
+footer {
+  padding: 20px 0 0 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.social-links {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.social-links a {
+  margin: 0 10px;
+}
+
+.social-icon {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  width: 20px;
+}
+
+.made-with {
+  padding: 0 30px;
+  color: #555;
 }
