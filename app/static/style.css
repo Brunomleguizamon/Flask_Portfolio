@@ -234,7 +234,7 @@ nav ul li a {
 
 /* footer styles */
 footer {
-  padding: 20px 0 0 0;
+  padding: 5px 0 0 0;
   background-color: #333;
   color: #fff;
 }
@@ -258,4 +258,9 @@ footer {
 .made-with {
   padding: 0 30px;
   color: #555;
+}
+
+.row-made-with {
+  display: flex;
+  flex-direction: row-reverse;
 }
