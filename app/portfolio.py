@@ -10,6 +10,6 @@ bp = Blueprint('portfolio', __name__, url_prefix='/')
 def index():
     return render_template('portfolio/index.html')
 
-@bp.route('/mail', methods=['POST']) 
+@bp.route('/mail', methods=['POST','GET']) 
 def mail():
-    pass
+    return render_template('portfolio/send_mail.html')

@@ -29,6 +29,7 @@ a:hover {
 .content {
   width: 100%;
   padding-left: 25px;
+  padding-bottom: 20px;
 }
 
 .row {
@@ -160,6 +161,9 @@ nav ul li a {
 }
 
 /* Portfolio Card */
+#projects {
+  background-color: #fff;
+}
 
 .card {
   background-color: #fff;
@@ -206,6 +210,9 @@ nav ul li a {
 }
 
 /* Contact Styles   */
+.contact {
+  background-color: #fff;
+}
 
 .contact-form input {
   font-family: "Rubik", sans-serif;
@@ -215,6 +222,7 @@ nav ul li a {
   padding: 5px 10px;
   margin-bottom: 15px;
   border-radius: 5px;
+  background: #efefef;
 }
 
 .contact-form textarea {
@@ -226,6 +234,7 @@ nav ul li a {
   resize: none;
   border-radius: 5px;
   margin-bottom: 15px;
+  background-color: #efefef;
 }
 
 .contact-form button {
