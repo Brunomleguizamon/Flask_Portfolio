@@ -7,8 +7,10 @@ from flask import(
     current_app
 )
 from flask.helpers import send_file, url_for
+import sendgrid
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import *
+
 bp = Blueprint('portfolio', __name__, url_prefix='/')
 
 
@@ -23,7 +25,7 @@ def mail():
     email = request.form.get('email')
     message = request.form.get('message')
 
-    if request == 'POST':
+    if request.method == 'POST':
         send_email(name, email, message)
         return render_template('portfolio/send_mail.html')
     else:
@@ -32,7 +34,8 @@ def mail():
 
 def send_email(name, email, message):
     mi_email = 'brunomleguizamon@gmail.com'
-    sg = sendgrid.SendGridAPIClient(api_key=current_app.config['SENDGRID_KEY'])
+    sg = sendgrid .SendGridAPIClient(
+        api_key=current_app.config['SENDGRID_KEY'])
 
     from_email = Email(mi_email)
     to_email = To(mi_email, substitutions={

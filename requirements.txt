@@ -1,0 +1,7 @@
+autopep8==1.6.0
+certifi==2021.10.8
+pycodestyle==2.8.0
+python-http-client==3.3.3
+sendgrid==6.9.0
+starkbank-ecdsa==1.1.1
+toml==0.10.2
