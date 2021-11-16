@@ -9,6 +9,9 @@ Jinja2==3.0.3
 MarkupSafe==2.0.1
 platformdirs==2.4.0
 python-dotenv==0.19.1
+python-http-client==3.3.3
+sendgrid==6.9.0
 six==1.16.0
+starkbank-ecdsa==1.1.1
 virtualenv==20.10.0
 Werkzeug==2.0.2
